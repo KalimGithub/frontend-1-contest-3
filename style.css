@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    margin-inline: 100px;
+}
+.search-nav{
+    margin-right: 10px;
+}
+.main-row{
+    max-height:max-content;
+}
+
+.div-2>img{
+    max-height: fit-content;
+}
+
+.section-2{
+    width: 40vw;
+}
+
+.footer-div{
+    margin-inline: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tables{
+    margin-inline: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:940px){
+    .burgermenu{
+        display: block;
+    }
+    .section-class{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .search-nav{
+        display: none;
+    }
+    .nav-class{
+        display: none;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media  (min-width: 576px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        zindex: dropdown 100px;
+    }
+}
